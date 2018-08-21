@@ -12,7 +12,6 @@ switch(env){
         config = require('./config.development.json');
         break;
 }
-console.log(env)
 var envConfig = config;
 
 Object.keys(envConfig).forEach(k => process.env[k] = envConfig[k]);
