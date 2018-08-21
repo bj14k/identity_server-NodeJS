@@ -1,0 +1,6 @@
+{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/YOUR_MONGODB_DB",
+    "JWT_SECRET": "YOUR_JWT_SECRET_KEY",
+    "JWT_EXP": "2m"
+}
